@@ -10,7 +10,7 @@ spring:
     show-sql: true
     open-in-view: false
     hibernate:
-      ddl-auto: create-update
+      ddl-auto: update
     properties:
       hibernate:
         formate_sql: true
