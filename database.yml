@@ -7,3 +7,10 @@ spring:
   jpa:
     database: postgresql
     database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+    show-sql: true
+    open-in-view: false
+    hibernate:
+      ddl-auto: create-update
+    properties:
+      hibernate:
+        formate_sql: true
